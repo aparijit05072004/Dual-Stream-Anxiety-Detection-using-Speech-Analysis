@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below."
+title: "Anxiety Detection Using Speech Analysis"
+abstract: >-
+  Reference implementation of the speech stream of a dual-stream anxiety
+  detection model: a parallel CNN + BiLSTM-with-attention network over
+  128-band log-mel spectrograms, trained on the RAVDESS Emotional Song Audio
+  corpus, with an emotion-to-anxiety proxy mapping over the affective
+  circumplex.
+type: software
+version: 1.0.0
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/aparijit05072004/Anxiety-detectionn-using-speech-analysis"
+keywords:
+  - speech emotion recognition
+  - anxiety detection
+  - affective computing
+  - convolutional neural network
+  - BiLSTM
+  - attention
+  - mel spectrogram
+  - RAVDESS
+  - PyTorch
+authors:
+  - family-names: Basu
+    given-names: Adrija
+  - family-names: Mishra
+    given-names: Akanksha
+  - family-names: Roy
+    given-names: Aditya
+  - family-names: Chakraborty
+    given-names: Aparijit
+  - family-names: Hariharan
+    given-names: R.
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Dual-Stream Anxiety Detection: LSTM-Based Speech Analysis and CNN-Driven
+    Sentiment Analysis
+  authors:
+    - family-names: Basu
+      given-names: Adrija
+    - family-names: Mishra
+      given-names: Akanksha
+    - family-names: Roy
+      given-names: Aditya
+    - family-names: Chakraborty
+      given-names: Aparijit
+    - family-names: Hariharan
+      given-names: R.
+  collection-title: >-
+    Proceedings of the Third Congress on Control, Robotics, and Mechatronics
+  collection-type: proceedings
+  publisher:
+    name: Springer Nature Singapore
+  year: 2026
+  start: 1
+  end: 15
+  isbn: "9789819681266"
+  issn: "2190-3026"
+  doi: 10.1007/978-981-96-8126-6_1
+  url: "https://doi.org/10.1007/978-981-96-8126-6_1"

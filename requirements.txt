@@ -1,0 +1,15 @@
+# Core pipeline — pinned to minimum versions known to work.
+numpy>=1.24
+pandas>=2.0
+librosa>=0.10.1          # log-mel front end and audio loading
+soundfile>=0.12          # librosa's I/O backend
+scikit-learn>=1.3        # metrics, confusion matrix
+torch>=2.0               # see https://pytorch.org for the right CUDA build
+
+# Figures and notebook
+matplotlib>=3.7
+seaborn>=0.12
+jupyter>=1.0
+
+# Tests
+pytest>=7.4

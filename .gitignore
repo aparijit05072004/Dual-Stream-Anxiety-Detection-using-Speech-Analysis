@@ -1,0 +1,23 @@
+# Data and model artefacts — never commit the corpus or checkpoints
+data/
+artifacts/
+*.pt
+*.pth
+*.wav
+*.zip
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
